@@ -1,1 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T07:04:27.967Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" version="16.2.7" etag="HH_dmofYxZNvgLRBWJhF" type="github"><diagram id="dFgw-dFXlhp1jmWGXN08">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-07T08:44:54.222Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-498y68Yvn6-aj_KqiZt" version="16.2.7" type="github">
+  <diagram id="dFgw-dFXlhp1jmWGXN08" name="Page-1">
+    <mxGraphModel dx="1350" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-1" value="SdsApi" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="350" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-2" value="+ update_callback_manager_: Common::CallbackManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-1">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-1">
+          <mxGeometry y="52" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-4" value="+ onConfigUpdate: update_callback_manager_.runCallbacks()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-1">
+          <mxGeometry y="60" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-6" value="TlsCertficateProviderApi" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="430" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-6">
+          <mxGeometry y="26" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-9" value="+ secret()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-6">
+          <mxGeometry y="34" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-19" value="+ addUpdateCallback(callback) : update_callback_manager_.add(callback) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-6">
+          <mxGeometry y="60" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-11" value="+ addValidationCallback(callback): return nullptr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-6">
+          <mxGeometry y="86" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VGaLUw2bB4asPVf7SSg4-6" target="VGaLUw2bB4asPVf7SSg4-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="320" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="385" y="320" />
+              <mxPoint x="275" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-12" value="SecretProvider（Interface）" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="154" width="260" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-12">
+          <mxGeometry y="26" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-18" value="+ secret()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-12">
+          <mxGeometry y="34" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-15" value="+ addUpdateCallback(callback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-12">
+          <mxGeometry y="60" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-17" value="+ addValidationCallback(callback)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-12">
+          <mxGeometry y="86" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-21" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VGaLUw2bB4asPVf7SSg4-6" target="VGaLUw2bB4asPVf7SSg4-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="395" y="370" as="sourcePoint" />
+            <mxPoint x="285" y="276" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="493" y="320" />
+              <mxPoint x="620" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-22" value="ContextConfigImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="570" width="445" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-23" value="+ tls_certificate_providers_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-22">
+          <mxGeometry y="26" width="445" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-27" value="+ certificate_validation_context_providers_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-22">
+          <mxGeometry y="52" width="445" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-22">
+          <mxGeometry y="78" width="445" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-25" value="+ setSecretUpdateCallback(callback): provider-&gt;addUpdateCallback(...)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-22">
+          <mxGeometry y="86" width="445" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-28" value="ServerSslSocketFactory / ClientSslSocketFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="780" width="410" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-29" value="+ config_ : Envoy::Ssl::ServerContextConfigPtr/ClientContextConfigPtr&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-28">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-28">
+          <mxGeometry y="52" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-31" value="+  onAddOrUpdateSecret()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-28">
+          <mxGeometry y="60" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-35" value="+  onAddOrUpdateCertificate()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="VGaLUw2bB4asPVf7SSg4-28">
+          <mxGeometry y="86" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VGaLUw2bB4asPVf7SSg4-29" target="VGaLUw2bB4asPVf7SSg4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.221;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VGaLUw2bB4asPVf7SSg4-23" target="VGaLUw2bB4asPVf7SSg4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VGaLUw2bB4asPVf7SSg4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.874;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VGaLUw2bB4asPVf7SSg4-27" target="VGaLUw2bB4asPVf7SSg4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
