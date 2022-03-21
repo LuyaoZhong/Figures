@@ -1,14 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T05:46:41.872Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="UcMGTHLGHywYHZnagsfO" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T06:02:22.832Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="qEFC-vIE7U4oErODYZGC" version="16.2.7" type="github">
   <diagram id="W-9ImOpMtnj_Iprmmz2A" name="Page-1">
-    <mxGraphModel dx="1350" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1350" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="btSTc1lj03Zl4ieGrQy4-14" value="Branch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="70" y="240" width="230" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="btSTc1lj03Zl4ieGrQy4-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="275" width="50" height="105" as="geometry" />
         </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="btSTc1lj03Zl4ieGrQy4-14" target="btSTc1lj03Zl4ieGrQy4-19">
           <mxGeometry relative="1" as="geometry" />
@@ -16,21 +13,16 @@
         <mxCell id="btSTc1lj03Zl4ieGrQy4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="btSTc1lj03Zl4ieGrQy4-14" target="btSTc1lj03Zl4ieGrQy4-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="btSTc1lj03Zl4ieGrQy4-15" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes.svg;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="210" y="259.6" width="40" height="38.4" as="geometry" />
-        </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-17" value="Client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
           <mxGeometry x="100" y="298" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-18" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="40" width="350" height="170" as="geometry" />
+          <mxGeometry x="150" y="-90" width="620" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="btSTc1lj03Zl4ieGrQy4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btSTc1lj03Zl4ieGrQy4-19">
+        <mxCell id="btSTc1lj03Zl4ieGrQy4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.725;entryY=0.893;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="btSTc1lj03Zl4ieGrQy4-19" target="btSTc1lj03Zl4ieGrQy4-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="420" as="sourcePoint" />
-            <mxPoint x="650" y="176" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="368" />
+              <mxPoint x="600" y="368" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -38,28 +30,43 @@
           <mxGeometry x="410" y="316" width="143" height="103" as="geometry" />
         </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="460.5" y="90" width="83.5" height="79.8" as="geometry" />
+          <mxGeometry x="340" y="65.1" width="150" height="94.9" as="geometry" />
         </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-28" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes.svg;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="440" y="116.4" width="30" height="28.8" as="geometry" />
+          <mxGeometry x="330" y="94.48" width="30" height="28.8" as="geometry" />
         </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="563" y="90.9" width="87" height="79.8" as="geometry" />
+          <mxGeometry x="520" y="50" width="130" height="120.7" as="geometry" />
         </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-30" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes.svg;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="116.4" width="30" height="28.8" as="geometry" />
         </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-31" value="ingress-gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="476.75" y="140" width="51" height="29.8" as="geometry" />
+          <mxGeometry x="420" y="130.2" width="51" height="29.8" as="geometry" />
         </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-32" value="ingress-gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="581" y="140.9" width="51" height="29.8" as="geometry" />
+          <mxGeometry x="570" y="140.9" width="51" height="29.8" as="geometry" />
         </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-33" value="egress-gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="476.75" y="90" width="51" height="29.8" as="geometry" />
+          <mxGeometry x="409.75" y="65.1" width="51" height="29.8" as="geometry" />
         </mxCell>
         <mxCell id="btSTc1lj03Zl4ieGrQy4-34" value="egress-gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="581" y="90.9" width="51" height="29.8" as="geometry" />
+          <mxGeometry x="559.5" y="50.00000000000001" width="51" height="29.8" as="geometry" />
+        </mxCell>
+        <mxCell id="btSTc1lj03Zl4ieGrQy4-36" value="1. Envoy runs as a forward proxy in branch&lt;br&gt;2. Envoy runs as ingress gateway&lt;br&gt;3. Envoy runs as egress gateway&lt;br&gt;4. Envoy runs as pod sidecar" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="btSTc1lj03Zl4ieGrQy4-38" value="app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="97.43" width="40" height="25.85" as="geometry" />
+        </mxCell>
+        <mxCell id="btSTc1lj03Zl4ieGrQy4-39" value="forward proxy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btSTc1lj03Zl4ieGrQy4-41" value="sidecar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="97.43" width="50" height="25.85" as="geometry" />
+        </mxCell>
+        <mxCell id="btSTc1lj03Zl4ieGrQy4-42" value="app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="369.75" y="104.35000000000001" width="40" height="25.85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
