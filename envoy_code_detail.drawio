@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T07:14:04.926Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="2yMae1buJbmg_odJyXac" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T07:19:59.398Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ilJDnr1uEu_Byvrikpuo" version="17.1.3" type="github">
   <diagram id="Rx53lf6qhBVuKlyR0qwF" name="Page-1">
     <mxGraphModel dx="2485" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -180,7 +180,7 @@
             <mxPoint x="1054.5" y="549" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rn_TyoC19n6ciJYK-s3--31" value="Networkl::ConnectionImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rn_TyoC19n6ciJYK-s3--31" value="Networkl::ServerConnectionImpl Network::ConnectionImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-75" y="760" width="250" height="540" as="geometry" />
         </mxCell>
         <mxCell id="rn_TyoC19n6ciJYK-s3--33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#858585;" vertex="1" parent="rn_TyoC19n6ciJYK-s3--31">
