@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T11:10:12.975Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="SJcUDT4zKYVBuYukxRTF" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T12:14:44.934Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="cQgVXZV09za99z_gNzgB" version="17.1.3" type="github">
   <diagram id="Rx53lf6qhBVuKlyR0qwF" name="Page-1">
     <mxGraphModel dx="2485" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -317,7 +317,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rn_TyoC19n6ciJYK-s3--114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fillColor=#B3B3B3;" vertex="1" parent="rn_TyoC19n6ciJYK-s3--73">
-          <mxGeometry x="90" y="800" width="10" height="80" as="geometry" />
+          <mxGeometry x="90" y="800" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--124" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fillColor=#999999;" vertex="1" parent="rn_TyoC19n6ciJYK-s3--73">
+          <mxGeometry x="90" y="830" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--125" value="onContinueReading" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;" edge="1" target="rn_TyoC19n6ciJYK-s3--124" parent="rn_TyoC19n6ciJYK-s3--73" source="rn_TyoC19n6ciJYK-s3--114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="810" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="125" y="810" />
+              <mxPoint x="125" y="830" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="rn_TyoC19n6ciJYK-s3--77" value="&lt;span&gt;Http::ConnectionManagerImpl&lt;br&gt;Network::ReadFilter&lt;br&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="820" y="760" width="190" height="960" as="geometry" />
@@ -328,11 +340,33 @@
         <mxCell id="rn_TyoC19n6ciJYK-s3--107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fillColor=#B3B3B3;" vertex="1" parent="rn_TyoC19n6ciJYK-s3--77">
           <mxGeometry x="90" y="570" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rn_TyoC19n6ciJYK-s3--78" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="760" width="190" height="960" as="geometry" />
+        <mxCell id="rn_TyoC19n6ciJYK-s3--126" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fillColor=#B3B3B3;" vertex="1" parent="rn_TyoC19n6ciJYK-s3--77">
+          <mxGeometry x="90" y="860" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rn_TyoC19n6ciJYK-s3--79" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="760" width="190" height="960" as="geometry" />
+        <mxCell id="rn_TyoC19n6ciJYK-s3--78" value="&lt;span&gt;Http::ConnectionManagerImpl&lt;/span&gt;&lt;br&gt;&lt;span&gt;Network::ReadFilter&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="760" width="190" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--129" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fillColor=#B3B3B3;" vertex="1" parent="rn_TyoC19n6ciJYK-s3--78">
+          <mxGeometry x="90" y="110" width="10" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--130" value="onData" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=12;" edge="1" target="rn_TyoC19n6ciJYK-s3--129" parent="rn_TyoC19n6ciJYK-s3--78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--131" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=12;" edge="1" source="rn_TyoC19n6ciJYK-s3--129" parent="rn_TyoC19n6ciJYK-s3--78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--79" value="HttpConnectionManager::&lt;br&gt;HttpConnectionManagerConfig" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="760" width="330" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--132" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fillColor=#B3B3B3;" vertex="1" parent="rn_TyoC19n6ciJYK-s3--79">
+          <mxGeometry x="90" y="130" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--136" value="Http::Http1::ServerConnectionImpl&lt;br&gt;Http::Http2::ServerConnectionImpl&lt;br&gt;Quic::QuicHttpServerConnectionImpl" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="rn_TyoC19n6ciJYK-s3--79">
+          <mxGeometry x="110" y="140" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rn_TyoC19n6ciJYK-s3--71" value="doHandshake" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=12;" edge="1" target="rn_TyoC19n6ciJYK-s3--70" parent="1" source="rn_TyoC19n6ciJYK-s3--62">
           <mxGeometry relative="1" as="geometry">
@@ -384,8 +418,8 @@
             <mxPoint x="115" y="1022" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rn_TyoC19n6ciJYK-s3--108" value="onEvent (no action for Connected Event on server connection)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=12;" edge="1" target="rn_TyoC19n6ciJYK-s3--107" parent="1" source="rn_TyoC19n6ciJYK-s3--86">
-          <mxGeometry x="0.462" relative="1" as="geometry">
+        <mxCell id="rn_TyoC19n6ciJYK-s3--108" value="onEvent (hcm has no action for Connected Event on server connection)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=12;" edge="1" target="rn_TyoC19n6ciJYK-s3--107" parent="1" source="rn_TyoC19n6ciJYK-s3--86">
+          <mxGeometry x="0.5556" relative="1" as="geometry">
             <mxPoint x="840" y="1314" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -417,13 +451,33 @@
             <mxPoint x="1490" y="495" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rn_TyoC19n6ciJYK-s3--121" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;bool&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="rn_TyoC19n6ciJYK-s3--119" target="rn_TyoC19n6ciJYK-s3--2">
+        <mxCell id="rn_TyoC19n6ciJYK-s3--121" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;bool empty chain or not&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="rn_TyoC19n6ciJYK-s3--119" target="rn_TyoC19n6ciJYK-s3--2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1490" y="523.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rn_TyoC19n6ciJYK-s3--123" value="---&amp;gt; FilterManagerImpl::initializeReadFilters&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;---&amp;gt; FilterMaanagerImpl::onContinueReading&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ---&amp;gt; traverse all network filters filter-&amp;gt;onNewConnection&lt;br&gt;(no action in HCM onNewConnection)&lt;br&gt;(initialize upstream connection in tcp proxy onNewConnection)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1770" y="500" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--128" value="Network::FilterStatus" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=12;" edge="1" source="rn_TyoC19n6ciJYK-s3--126" parent="1" target="rn_TyoC19n6ciJYK-s3--124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="1676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--127" value="onData" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=12;" edge="1" target="rn_TyoC19n6ciJYK-s3--126" parent="1" source="rn_TyoC19n6ciJYK-s3--124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="1600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--133" value="createCodec" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=12;" edge="1" target="rn_TyoC19n6ciJYK-s3--132" parent="1" source="rn_TyoC19n6ciJYK-s3--129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--134" value="Http::ServerConnectionPtr" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=12;" edge="1" source="rn_TyoC19n6ciJYK-s3--132" parent="1" target="rn_TyoC19n6ciJYK-s3--129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="966" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
