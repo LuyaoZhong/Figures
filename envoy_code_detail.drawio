@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T02:30:52.411Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="DqXLgdMZhDjOAbWpKDBl" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T02:38:35.111Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="NsrsTWGSCSouLkshjXCF" version="17.1.3" type="github">
   <diagram id="Rx53lf6qhBVuKlyR0qwF" name="Page-1">
     <mxGraphModel dx="2485" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -519,7 +519,7 @@
         <mxCell id="rn_TyoC19n6ciJYK-s3--184" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fillColor=#B3B3B3;" vertex="1" parent="rn_TyoC19n6ciJYK-s3--181">
           <mxGeometry x="100" y="150" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rn_TyoC19n6ciJYK-s3--185" value="Http::Http1::ServerConnectionImpl&lt;br&gt;Http::Http2::ServerConnectionImpl&lt;br&gt;Quic::QuicHttpServerConnectionImpl" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="rn_TyoC19n6ciJYK-s3--185" value="Http::Http1::ServerConnectionImpl&lt;br&gt;Http::Http2::ServerConnectionImpl&lt;br&gt;Quic::QuicHttpServerConnectionImpl" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="85" y="2090" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rn_TyoC19n6ciJYK-s3--186" value="construct" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=12;" edge="1" parent="1" source="rn_TyoC19n6ciJYK-s3--174" target="rn_TyoC19n6ciJYK-s3--178">
@@ -562,7 +562,7 @@
             <mxPoint x="720" y="2086" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rn_TyoC19n6ciJYK-s3--194" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;struct http_parser_settings {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_cb&amp;nbsp; &amp;nbsp; &amp;nbsp; on_message_begin;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_data_cb on_url;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_data_cb on_status;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_data_cb on_header_field;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_data_cb on_header_value;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_cb&amp;nbsp; &amp;nbsp; &amp;nbsp; on_headers_complete;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_data_cb on_body;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_cb&amp;nbsp; &amp;nbsp; &amp;nbsp; on_message_complete;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_cb&amp;nbsp; &amp;nbsp; &amp;nbsp; on_chunk_header;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_cb&amp;nbsp; &amp;nbsp; &amp;nbsp; on_chunk_complete;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;};&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="rn_TyoC19n6ciJYK-s3--194" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;struct http_parser_settings {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_cb&amp;nbsp; &amp;nbsp; &amp;nbsp; on_message_begin;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_data_cb on_url;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_data_cb on_status;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_data_cb on_header_field;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_data_cb on_header_value;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_cb&amp;nbsp; &amp;nbsp; &amp;nbsp; on_headers_complete;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_data_cb on_body;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_cb&amp;nbsp; &amp;nbsp; &amp;nbsp; on_message_complete;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_cb&amp;nbsp; &amp;nbsp; &amp;nbsp; on_chunk_header;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;http_cb&amp;nbsp; &amp;nbsp; &amp;nbsp; on_chunk_complete;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;};&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="800" y="1969" width="220" height="180" as="geometry" />
         </mxCell>
         <mxCell id="rn_TyoC19n6ciJYK-s3--195" value="onMessageBegin" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;fontSize=12;" edge="1" parent="1" source="rn_TyoC19n6ciJYK-s3--182" target="rn_TyoC19n6ciJYK-s3--180">
@@ -587,6 +587,9 @@
         <mxCell id="rn_TyoC19n6ciJYK-s3--211" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fillColor=#999999;" vertex="1" parent="rn_TyoC19n6ciJYK-s3--201">
           <mxGeometry x="100" y="404" width="10" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="rn_TyoC19n6ciJYK-s3--215" value="itself is a request decoder, it has response encoder" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2" vertex="1" parent="rn_TyoC19n6ciJYK-s3--201">
+          <mxGeometry x="-100" y="430" width="290" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="rn_TyoC19n6ciJYK-s3--202" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1440" y="1890" width="210" height="950" as="geometry" />
         </mxCell>
@@ -602,7 +605,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rn_TyoC19n6ciJYK-s3--209" value="newStream" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;fontSize=12;" edge="1" target="rn_TyoC19n6ciJYK-s3--208" parent="1" source="rn_TyoC19n6ciJYK-s3--180">
+        <mxCell id="rn_TyoC19n6ciJYK-s3--209" value="newStream with response_encoder_ as para" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;fontSize=12;" edge="1" target="rn_TyoC19n6ciJYK-s3--208" parent="1" source="rn_TyoC19n6ciJYK-s3--180">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="2260" as="sourcePoint" />
           </mxGeometry>
@@ -613,16 +616,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rn_TyoC19n6ciJYK-s3--212" value="construct" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=12;" edge="1" target="rn_TyoC19n6ciJYK-s3--211" parent="1" source="rn_TyoC19n6ciJYK-s3--208">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.888" relative="1" as="geometry">
             <mxPoint x="1190" y="2250" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rn_TyoC19n6ciJYK-s3--213" value="ActiveStream instance" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=12;" edge="1" source="rn_TyoC19n6ciJYK-s3--211" parent="1" target="rn_TyoC19n6ciJYK-s3--208">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.872" y="-2" relative="1" as="geometry">
             <mxPoint x="1190" y="2326" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rn_TyoC19n6ciJYK-s3--214" value="set request_decoder_ to active_request_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="rn_TyoC19n6ciJYK-s3--214" value="set request_decoder_ to active_request_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="330" y="2344" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
