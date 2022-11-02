@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T11:47:04.138Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="9g7pLXDXyUANvqo8NBMJ" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T11:47:19.877Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Pn_-9-n8LXFdaDcIBF5h" version="20.3.2" type="github">
   <diagram id="XW8KIM-7wdCa0JijoHfH" name="Page-1">
-    <mxGraphModel dx="2485" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3186" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,9 +169,6 @@
         </mxCell>
         <mxCell id="zNC3zreKvYr2TmgG_UFC-54" value="istioout geneve tunnel mac" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-150" y="550" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zNC3zreKvYr2TmgG_UFC-57" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="250" y="10" width="140" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
