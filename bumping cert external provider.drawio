@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T02:36:32.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="GwMYJiTdx8UuBiMHdSJ6" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-24T02:38:32.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JIUMaWgGXL0Sfm-McliP" version="20.8.16" type="github">
   <diagram name="Page-1" id="5YIQ6j-aH4ark_wvlMyv">
     <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0PErs6EqMwl34GyTN1hK-1" value="BumpingFilter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="150" y="30" width="240" height="1010" as="geometry" />
+          <mxGeometry x="150" y="30" width="100" height="1010" as="geometry" />
         </mxCell>
         <mxCell id="0PErs6EqMwl34GyTN1hK-9" value="new request" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="0PErs6EqMwl34GyTN1hK-1">
           <mxGeometry relative="1" as="geometry">
@@ -38,9 +38,6 @@
         <mxCell id="0PErs6EqMwl34GyTN1hK-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0PErs6EqMwl34GyTN1hK-1">
           <mxGeometry x="45" y="970" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0PErs6EqMwl34GyTN1hK-70" value="DownstreamTransportSocket" style="html=1;" vertex="1" parent="0PErs6EqMwl34GyTN1hK-1">
-          <mxGeometry x="70" y="900" width="170" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="0PErs6EqMwl34GyTN1hK-2" value="BumpingCertProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="390" y="30" width="170" height="1020" as="geometry" />
         </mxCell>
@@ -67,10 +64,10 @@
         <mxCell id="0PErs6EqMwl34GyTN1hK-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0PErs6EqMwl34GyTN1hK-2">
           <mxGeometry x="80" y="900" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="0PErs6EqMwl34GyTN1hK-69" value="reload" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="0PErs6EqMwl34GyTN1hK-2">
+        <mxCell id="0PErs6EqMwl34GyTN1hK-69" value="reload downstream socket config" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="0PErs6EqMwl34GyTN1hK-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="920" as="sourcePoint" />
-            <mxPoint y="920" as="targetPoint" />
+            <mxPoint x="-90" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0PErs6EqMwl34GyTN1hK-3" value="BumpingCertProviderServiceClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
