@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2023-05-30T01:53:59.389Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="wYiErdPWWIx09Dnv_J5T" version="21.3.2" type="github">
+  <diagram name="Page-1" id="2-th8NFAfKKQ3UShaUIx">
+    <mxGraphModel dx="1567" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4z6rsxoPnjdn_IXY632t-1" value="Envoy" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4z6rsxoPnjdn_IXY632t-2" target="4z6rsxoPnjdn_IXY632t-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="403" y="300" />
+              <mxPoint x="403" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4z6rsxoPnjdn_IXY632t-2" target="4z6rsxoPnjdn_IXY632t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-2" value="&lt;b&gt;Cert Provider Plugin&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="270" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4z6rsxoPnjdn_IXY632t-3" target="4z6rsxoPnjdn_IXY632t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4z6rsxoPnjdn_IXY632t-3" target="4z6rsxoPnjdn_IXY632t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.871;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4z6rsxoPnjdn_IXY632t-3" target="4z6rsxoPnjdn_IXY632t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-3" value="&lt;b&gt;external certificate provider&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4z6rsxoPnjdn_IXY632t-4" target="4z6rsxoPnjdn_IXY632t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-4" value="&lt;b&gt;Bumping Filter&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4z6rsxoPnjdn_IXY632t-7" target="4z6rsxoPnjdn_IXY632t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-7" value="kube-apiserver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4z6rsxoPnjdn_IXY632t-8" target="4z6rsxoPnjdn_IXY632t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4z6rsxoPnjdn_IXY632t-8" target="4z6rsxoPnjdn_IXY632t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-8" value="Custom CA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-11" value="2. create certificate request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-12" value="1. need mimic certificate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="236" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-14" value="0. watch CSR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-15" value="0. watch CSR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-19" value="3. create CSR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-21" value="4. sign and update CSR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-23" value="4. get signed CSR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-25" value="5. mimic certificate response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4z6rsxoPnjdn_IXY632t-27" value="6. notify that cert is ready" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="236" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
