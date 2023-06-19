@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T05:09:33.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Tj0y2V-ZTfjOQ8UGc4V9" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T04:57:33.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pb4dO015Gz_o_bLGApXA" version="21.3.6" type="github">
   <diagram id="DxiktCfPVhVCTb73MeIk" name="Page-1">
-    <mxGraphModel dx="1793" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,7 +73,7 @@
         <mxCell id="bpLpSMuuCPS-NAAvhIt0-23" value="+ sendRaw(...): AsyncRequest" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bpLpSMuuCPS-NAAvhIt0-20" vertex="1">
           <mxGeometry y="34" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bpLpSMuuCPS-NAAvhIt0-30" value="+ startRaw(...): RawAsyncStream" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bpLpSMuuCPS-NAAvhIt0-20" vertex="1">
+        <mxCell id="bpLpSMuuCPS-NAAvhIt0-30" value="+ startRaw(...): RawAsyncStream" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#3333FF;" parent="bpLpSMuuCPS-NAAvhIt0-20" vertex="1">
           <mxGeometry y="60" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bpLpSMuuCPS-NAAvhIt0-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="bpLpSMuuCPS-NAAvhIt0-12" target="bpLpSMuuCPS-NAAvhIt0-20" edge="1">
@@ -350,7 +350,7 @@
         <mxCell id="bpLpSMuuCPS-NAAvhIt0-131" value="+ onReceiveMessageRaw(...): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bpLpSMuuCPS-NAAvhIt0-128" vertex="1">
           <mxGeometry y="60" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bpLpSMuuCPS-NAAvhIt0-144" value="AsyncStream" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="bpLpSMuuCPS-NAAvhIt0-144" value="AsyncStream" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF8000;" parent="1" vertex="1">
           <mxGeometry x="1650" y="567" width="200" height="138" as="geometry" />
         </mxCell>
         <mxCell id="bpLpSMuuCPS-NAAvhIt0-148" value="+ stream_: RawAsnycStream" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000CC;" parent="bpLpSMuuCPS-NAAvhIt0-144" vertex="1">
@@ -374,37 +374,37 @@
             <mxPoint x="1690" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SlvPXfr3jqpSavEzwKRw-1" value="具体的实现为AsyncClientImpl或者GoogleAsyncClientImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SlvPXfr3jqpSavEzwKRw-1" value="具体的实现为AsyncClientImpl或者GoogleAsyncClientImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="445" y="680" width="230" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="SlvPXfr3jqpSavEzwKRw-2" value="具体的实现为AsyncRequestImpl或GoogleAsyncRequestImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SlvPXfr3jqpSavEzwKRw-2" value="具体的实现为AsyncRequestImpl或GoogleAsyncRequestImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="720" y="662" width="230" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="SlvPXfr3jqpSavEzwKRw-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bpLpSMuuCPS-NAAvhIt0-121" target="bpLpSMuuCPS-NAAvhIt0-101">
+        <mxCell id="SlvPXfr3jqpSavEzwKRw-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bpLpSMuuCPS-NAAvhIt0-121" target="bpLpSMuuCPS-NAAvhIt0-101" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="840" y="840" as="sourcePoint" />
             <mxPoint x="1000" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SlvPXfr3jqpSavEzwKRw-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="bpLpSMuuCPS-NAAvhIt0-128" target="bpLpSMuuCPS-NAAvhIt0-68">
+        <mxCell id="SlvPXfr3jqpSavEzwKRw-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="1" source="bpLpSMuuCPS-NAAvhIt0-128" target="bpLpSMuuCPS-NAAvhIt0-68" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1770" y="810" as="sourcePoint" />
             <mxPoint x="1390" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SlvPXfr3jqpSavEzwKRw-5" value="具体的实现为AsyncStreamImpl或GoogleAsyncStreamtImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SlvPXfr3jqpSavEzwKRw-5" value="具体的实现为AsyncStreamImpl或GoogleAsyncStreamtImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1380" y="718" width="230" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="SlvPXfr3jqpSavEzwKRw-6" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SlvPXfr3jqpSavEzwKRw-6" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="990" y="690" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SlvPXfr3jqpSavEzwKRw-7" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SlvPXfr3jqpSavEzwKRw-7" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="990" y="690" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SlvPXfr3jqpSavEzwKRw-8" value="AsyncClientImpl的&lt;br&gt;startRaw返回AsyncStreamImpl&lt;br&gt;sendRaw返回AsyncRequestImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SlvPXfr3jqpSavEzwKRw-8" value="AsyncClientImpl的&lt;br&gt;startRaw返回AsyncStreamImpl&lt;br&gt;sendRaw返回AsyncRequestImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="300" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SlvPXfr3jqpSavEzwKRw-9" value="GoogleAsyncClientImpl的&lt;br&gt;sendRaw返回GoogleAsyncRequestImpl&lt;br&gt;startRaw返回GoogleAsyncStreamImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SlvPXfr3jqpSavEzwKRw-9" value="GoogleAsyncClientImpl的&lt;br&gt;sendRaw返回GoogleAsyncRequestImpl&lt;br&gt;startRaw返回GoogleAsyncStreamImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="705" y="1110" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
