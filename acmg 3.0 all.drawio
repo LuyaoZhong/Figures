@@ -188,10 +188,10 @@
           <mxGeometry x="455" y="688.8" width="135" height="71.2" as="geometry" />
         </mxCell>
         <mxCell id="l-yE09cOP0DdKuzRb7U3-90" value="ACMG ingress controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="460" y="720" width="120" height="30" as="geometry" />
+          <mxGeometry x="465" y="720" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l-yE09cOP0DdKuzRb7U3-91" value="ACMG agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="460" y="640" width="120" height="30" as="geometry" />
+          <mxGeometry x="465" y="639.6" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
